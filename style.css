@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.container{
+    /* max-width: 1100px; */
+    margin: auto;
+}
+
+.nav{
+    background-color: blue;
+    color: white;
+}
+
+.navbar{
+    height: 45px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar i{
+    font-size: 20px;
+}
+
+.items{
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+}
+
+.wall{
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: auto;
+}
+
+.name{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.showcase{
+    text-align: center;
+    margin: auto;
+
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    transition: border 1s;
+}
+
+img{
+    width: inherit;
+    height: inherit;
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+.addToCart{
+    width: 100px;
+    height: 20px;
+    background-color: orange;
+    color: black;
+    position: relative;
+    transition: all 2s;
+}
+
+.hover{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.cartPage{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+}
+/* .cart{
+
+} */
